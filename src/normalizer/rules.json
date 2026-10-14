@@ -1,0 +1,636 @@
+{
+  "version": "1.0.0",
+  "description": "Canonical reduction rules for cross-script Cyrillic & Latin search",
+  "latin_digraphs_and_trigraphs": [
+    {
+      "find": "shch",
+      "replace": "st",
+      "desc": "щ (Russian/Slavic transliteration -> st)"
+    },
+    {
+      "find": "sht",
+      "replace": "st",
+      "desc": "щ (Bulgarian transliteration -> st)"
+    },
+    {
+      "find": "dzh",
+      "replace": "d",
+      "desc": "џ (Balkan/Slavic transliteration -> d)"
+    },
+    {
+      "find": "dž",
+      "replace": "d",
+      "desc": "џ (Gaj Latin digraph -> d)"
+    },
+    {
+      "find": "dj",
+      "replace": "d",
+      "desc": "ђ/џ -> d"
+    },
+    {
+      "find": "dz",
+      "replace": "z",
+      "desc": "Macedonian ѕ -> z"
+    },
+    {
+      "find": "gj",
+      "replace": "g",
+      "desc": "Macedonian ѓ -> g"
+    },
+    {
+      "find": "kj",
+      "replace": "k",
+      "desc": "Macedonian ќ -> k"
+    },
+    {
+      "find": "lj",
+      "replace": "l",
+      "desc": "љ -> l"
+    },
+    {
+      "find": "nj",
+      "replace": "n",
+      "desc": "њ -> n"
+    },
+    {
+      "find": "ch",
+      "replace": "c",
+      "desc": "ч/č/ć -> c"
+    },
+    {
+      "find": "sh",
+      "replace": "s",
+      "desc": "ш/š -> s"
+    },
+    {
+      "find": "zh",
+      "replace": "z",
+      "desc": "ж/ž -> z"
+    },
+    {
+      "find": "ts",
+      "replace": "c",
+      "desc": "ц -> c"
+    },
+    {
+      "find": "tz",
+      "replace": "c",
+      "desc": "ц -> c"
+    },
+    {
+      "find": "kh",
+      "replace": "h",
+      "desc": "х -> h"
+    },
+    {
+      "find": "ya",
+      "replace": "ja",
+      "desc": "я -> ja"
+    },
+    {
+      "find": "yu",
+      "replace": "ju",
+      "desc": "ю -> ju"
+    }
+  ],
+  "latin_diacritics_and_consonants": [
+    {
+      "find": "č",
+      "replace": "c"
+    },
+    {
+      "find": "ć",
+      "replace": "c"
+    },
+    {
+      "find": "ç",
+      "replace": "c"
+    },
+    {
+      "find": "š",
+      "replace": "s"
+    },
+    {
+      "find": "ś",
+      "replace": "s"
+    },
+    {
+      "find": "ş",
+      "replace": "s"
+    },
+    {
+      "find": "ș",
+      "replace": "s"
+    },
+    {
+      "find": "ž",
+      "replace": "z"
+    },
+    {
+      "find": "ź",
+      "replace": "z"
+    },
+    {
+      "find": "ż",
+      "replace": "z"
+    },
+    {
+      "find": "đ",
+      "replace": "d"
+    },
+    {
+      "find": "ď",
+      "replace": "d"
+    },
+    {
+      "find": "ť",
+      "replace": "t"
+    },
+    {
+      "find": "ţ",
+      "replace": "t"
+    },
+    {
+      "find": "ț",
+      "replace": "t"
+    },
+    {
+      "find": "ň",
+      "replace": "n"
+    },
+    {
+      "find": "ñ",
+      "replace": "n"
+    },
+    {
+      "find": "ľ",
+      "replace": "l"
+    },
+    {
+      "find": "ĺ",
+      "replace": "l"
+    },
+    {
+      "find": "ł",
+      "replace": "l"
+    },
+    {
+      "find": "ŕ",
+      "replace": "r"
+    },
+    {
+      "find": "ř",
+      "replace": "r"
+    },
+    {
+      "find": "w",
+      "replace": "v"
+    },
+    {
+      "find": "q",
+      "replace": "k"
+    },
+    {
+      "find": "x",
+      "replace": "ks"
+    },
+    {
+      "find": "ä",
+      "replace": "a"
+    },
+    {
+      "find": "á",
+      "replace": "a"
+    },
+    {
+      "find": "à",
+      "replace": "a"
+    },
+    {
+      "find": "â",
+      "replace": "a"
+    },
+    {
+      "find": "ã",
+      "replace": "a"
+    },
+    {
+      "find": "å",
+      "replace": "a"
+    },
+    {
+      "find": "ā",
+      "replace": "a"
+    },
+    {
+      "find": "ă",
+      "replace": "a"
+    },
+    {
+      "find": "ą",
+      "replace": "a"
+    },
+    {
+      "find": "é",
+      "replace": "e"
+    },
+    {
+      "find": "è",
+      "replace": "e"
+    },
+    {
+      "find": "ê",
+      "replace": "e"
+    },
+    {
+      "find": "ë",
+      "replace": "e"
+    },
+    {
+      "find": "ē",
+      "replace": "e"
+    },
+    {
+      "find": "ė",
+      "replace": "e"
+    },
+    {
+      "find": "ę",
+      "replace": "e"
+    },
+    {
+      "find": "ě",
+      "replace": "e"
+    },
+    {
+      "find": "í",
+      "replace": "i"
+    },
+    {
+      "find": "ì",
+      "replace": "i"
+    },
+    {
+      "find": "î",
+      "replace": "i"
+    },
+    {
+      "find": "ï",
+      "replace": "i"
+    },
+    {
+      "find": "ī",
+      "replace": "i"
+    },
+    {
+      "find": "į",
+      "replace": "i"
+    },
+    {
+      "find": "ó",
+      "replace": "o"
+    },
+    {
+      "find": "ò",
+      "replace": "o"
+    },
+    {
+      "find": "ô",
+      "replace": "o"
+    },
+    {
+      "find": "ö",
+      "replace": "o"
+    },
+    {
+      "find": "õ",
+      "replace": "o"
+    },
+    {
+      "find": "ō",
+      "replace": "o"
+    },
+    {
+      "find": "ő",
+      "replace": "o"
+    },
+    {
+      "find": "ø",
+      "replace": "o"
+    },
+    {
+      "find": "ú",
+      "replace": "u"
+    },
+    {
+      "find": "ù",
+      "replace": "u"
+    },
+    {
+      "find": "û",
+      "replace": "u"
+    },
+    {
+      "find": "ü",
+      "replace": "u"
+    },
+    {
+      "find": "ū",
+      "replace": "u"
+    },
+    {
+      "find": "ű",
+      "replace": "u"
+    },
+    {
+      "find": "ů",
+      "replace": "u"
+    },
+    {
+      "find": "ý",
+      "replace": "y"
+    },
+    {
+      "find": "ÿ",
+      "replace": "y"
+    }
+  ],
+  "cyrillic_regional_consonants": [
+    {
+      "find": "ч",
+      "replace": "c"
+    },
+    {
+      "find": "ш",
+      "replace": "s"
+    },
+    {
+      "find": "ж",
+      "replace": "z"
+    },
+    {
+      "find": "ц",
+      "replace": "c"
+    },
+    {
+      "find": "х",
+      "replace": "h"
+    },
+    {
+      "find": "џ",
+      "replace": "d"
+    },
+    {
+      "find": "ђ",
+      "replace": "d"
+    },
+    {
+      "find": "ћ",
+      "replace": "c"
+    },
+    {
+      "find": "ѓ",
+      "replace": "g"
+    },
+    {
+      "find": "ќ",
+      "replace": "k"
+    },
+    {
+      "find": "ѕ",
+      "replace": "z"
+    },
+    {
+      "find": "љ",
+      "replace": "l"
+    },
+    {
+      "find": "њ",
+      "replace": "n"
+    },
+    {
+      "find": "ґ",
+      "replace": "g"
+    },
+    {
+      "find": "ў",
+      "replace": "u"
+    }
+  ],
+  "dialect_variations": {
+    "universal": [
+      {
+        "find": "щ",
+        "replace": "st"
+      },
+      {
+        "find": "ъ",
+        "replace": "a"
+      },
+      {
+        "find": "я",
+        "replace": "ja"
+      },
+      {
+        "find": "ю",
+        "replace": "ju"
+      }
+    ],
+    "balkan": [
+      {
+        "find": "щ",
+        "replace": "st"
+      },
+      {
+        "find": "ъ",
+        "replace": "a"
+      },
+      {
+        "find": "я",
+        "replace": "ja"
+      },
+      {
+        "find": "ю",
+        "replace": "ju"
+      }
+    ],
+    "macedonian": [
+      {
+        "find": "щ",
+        "replace": "st"
+      },
+      {
+        "find": "ъ",
+        "replace": "a"
+      },
+      {
+        "find": "я",
+        "replace": "ja"
+      },
+      {
+        "find": "ю",
+        "replace": "ju"
+      }
+    ],
+    "bulgarian": [
+      {
+        "find": "щ",
+        "replace": "st"
+      },
+      {
+        "find": "ъ",
+        "replace": "a"
+      },
+      {
+        "find": "я",
+        "replace": "ja"
+      },
+      {
+        "find": "ю",
+        "replace": "ju"
+      }
+    ],
+    "east_slavic": [
+      {
+        "find": "щ",
+        "replace": "sc"
+      },
+      {
+        "find": "ъ",
+        "replace": ""
+      },
+      {
+        "find": "я",
+        "replace": "ja"
+      },
+      {
+        "find": "ю",
+        "replace": "ju"
+      }
+    ]
+  },
+  "cyrillic_base_characters": [
+    {
+      "find": "а",
+      "replace": "a"
+    },
+    {
+      "find": "б",
+      "replace": "b"
+    },
+    {
+      "find": "в",
+      "replace": "v"
+    },
+    {
+      "find": "г",
+      "replace": "g"
+    },
+    {
+      "find": "д",
+      "replace": "d"
+    },
+    {
+      "find": "е",
+      "replace": "e"
+    },
+    {
+      "find": "ё",
+      "replace": "e"
+    },
+    {
+      "find": "є",
+      "replace": "e"
+    },
+    {
+      "find": "з",
+      "replace": "z"
+    },
+    {
+      "find": "и",
+      "replace": "i"
+    },
+    {
+      "find": "і",
+      "replace": "i"
+    },
+    {
+      "find": "ї",
+      "replace": "i"
+    },
+    {
+      "find": "й",
+      "replace": "j"
+    },
+    {
+      "find": "ј",
+      "replace": "j"
+    },
+    {
+      "find": "к",
+      "replace": "k"
+    },
+    {
+      "find": "л",
+      "replace": "l"
+    },
+    {
+      "find": "м",
+      "replace": "m"
+    },
+    {
+      "find": "н",
+      "replace": "n"
+    },
+    {
+      "find": "о",
+      "replace": "o"
+    },
+    {
+      "find": "п",
+      "replace": "p"
+    },
+    {
+      "find": "р",
+      "replace": "r"
+    },
+    {
+      "find": "с",
+      "replace": "s"
+    },
+    {
+      "find": "т",
+      "replace": "t"
+    },
+    {
+      "find": "у",
+      "replace": "u"
+    },
+    {
+      "find": "ф",
+      "replace": "f"
+    },
+    {
+      "find": "ы",
+      "replace": "i"
+    },
+    {
+      "find": "э",
+      "replace": "e"
+    },
+    {
+      "find": "ь",
+      "replace": ""
+    }
+  ],
+  "leet_slang": [
+    {
+      "find": "4",
+      "replace": "c"
+    },
+    {
+      "find": "6",
+      "replace": "s"
+    }
+  ]
+}

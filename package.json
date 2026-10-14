@@ -1,0 +1,25 @@
+{
+  "name": "mysql-cyr-lat-search",
+  "version": "1.0.0",
+  "description": "Cross-Script (Cyrillic & Latin) Search Normalization and Symmetric Charset Shrinking",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:coverage": "node --experimental-strip-types --test --experimental-test-coverage tests/*.test.ts"
+  },
+  "keywords": [
+    "cyrillic",
+    "latin",
+    "search",
+    "normalization",
+    "mysql",
+    "mariadb",
+    "transliteration",
+    "macedonian",
+    "bulgarian",
+    "serbian"
+  ],
+  "author": "Boris Barbulovski <bbarbulovski@gmail.com>",
+  "license": "MIT"
+}
